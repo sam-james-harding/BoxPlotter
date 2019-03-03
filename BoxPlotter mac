@@ -1,0 +1,4 @@
+#! /bin/bash
+
+script_full_path=$(dirname "$0");
+python3 "$script_full_path/code/boxplotter.py"
